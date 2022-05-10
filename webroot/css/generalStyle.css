@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    --Primary: rgb(230, 76, 76);
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    background-color: var(--Primary);
+}
+
+main {
+    min-height: 100vh;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+footer {
+    background-color: var(--Primary);
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+table{
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid var(--Primary);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+fieldset{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: var(--Primary);
+    padding: 1vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset div{
+ width: 75%;
+ margin: 1vh; 
+ margin-left: auto;  
+ margin-right: auto;
+ display: flex;
+ flex-direction: column;
+}
+
+input,textarea{
+    outline: none;
+    border: none;
+    border-bottom: solid 2px var(--Primary);
+}
+
+textarea{
+    border-left: solid 2px var(--Primary);
+    border-right: solid 2px var(--Primary);
+    border-radius: 1vh;
+}
+
+button{
+    background-color: white;
+    color: var(--Primary);
+    border-color: var(--Primary);
+    border-radius: 2vw;
+    margin-top: 2vh;
+}
+
+button:hover{
+    background-color: var(--Primary);
+    color: white;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navbar li {
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid var(--Primary);
+    padding: 1vh;
+}
+
+#navbar a,
+footer a {
+    color: black;
+}
+
+#ls_img tr{
+    margin-top: 2vh;
+}
+
+#ls_img td{
+    width: 33%;
+    text-align: center;
+}
+
+#ls_img img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#navbar a:hover {
+    color: var(--Primary);
+}
+
+#navbar li:hover {
+    background-color: white;
+    border-right: 1px solid var(--Primary);
+    border-left: 1px solid var(--Primary);
+}
